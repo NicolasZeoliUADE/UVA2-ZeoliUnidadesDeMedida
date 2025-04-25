@@ -1,0 +1,147 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(134, 24, 24);
+}
+
+.titulo {
+    font-family: "Limelight", sans-serif;
+    font-size: 5vw;
+    padding-right: 2vh;
+    padding-left: 2vh; 
+    margin-bottom: 2vh;
+    color: white; 
+    text-shadow: 1px 1px 2px black;
+}
+
+.subtitulo {
+    font-family: "Limelight", sans-serif;
+    font-size: 3vw;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    margin-bottom: 2vh;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.pie {
+  font-family: "Ephesis", cursive;
+  font-size: 3vw;
+  text-align: center;
+  padding-right: 2vh;
+  padding-left: 2vh;
+  margin-bottom: 2vh;
+  color: gold;
+  text-shadow: 1px 1px 2px black;
+}
+
+.texto {
+  font-family: "Limelight", sans-serif;
+  font-size: 2vw;
+  text-align: center;
+  padding-right: 2vh;
+  padding-left: 2vh;
+  margin-bottom: 2vh;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.rojo {
+  color: red;
+}
+
+.verde {
+  color: green;
+}
+
+nav {
+  margin: auto;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: green;
+  overflow: hidden;
+  font-family: "Limelight", sans-serif;
+  justify-content: space-around;
+  width: 100%; 
+  text-shadow: 1px 1px 2px black;
+}
+
+li a {  
+    display: block;  
+    color: black;
+    text-align: center;
+    font-size: 2.5vw;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ddd;
+}
+
+.centered {
+    text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.footer {
+  background-color: rgb(134, 24, 24);
+  width: 100%;
+  text-align: center;
+  font-family: "Limelight", sans-serif;
+  font-size: 1vw;
+  color: white;
+  padding: 1rem 0;
+  margin-top: auto;
+}
+
+.image-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.menu-list {
+  flex: 1;
+}
+
+.menu-slideshow {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.unstyled {
+  list-style-type: none;
+  padding: 0;
+}
